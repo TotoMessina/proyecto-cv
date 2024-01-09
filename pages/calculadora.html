@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora Lucas Messina</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../asset/css/styles-calculadora.css">
+    </head>
+<body>
+    <body>
+        <div class="calculadora">
+            <input type="text" id="display" readonly>
+            <button onclick="clearDisplay()" class="funcion">AC</button>
+            <button onclick="toggleSign()" class="funcion">+/-</button>
+            <button onclick="calculatePercentage()" class="funcion">%</button>
+            <button onclick="appendToDisplay('/')" class="operacion">/</button>
+            <button onclick="appendToDisplay('7')" class="numero">7</button>
+            <button onclick="appendToDisplay('8')" class="numero">8</button>
+            <button onclick="appendToDisplay('9')" class="numero">9</button>
+            <button onclick="appendToDisplay('*')" class="operacion">x</button>
+            <button onclick="appendToDisplay('4')" class="numero">4</button>
+            <button onclick="appendToDisplay('5')" class="numero">5</button>
+            <button onclick="appendToDisplay('6')" class="numero">6</button>
+            <button onclick="appendToDisplay('-')" class="operacion">-</button>
+            <button onclick="appendToDisplay('1')" class="numero">1</button>
+            <button onclick="appendToDisplay('2')" class="numero">2</button>
+            <button onclick="appendToDisplay('3')" class="numero">3</button>
+            <button onclick="appendToDisplay('+')" class="operacion">+</button>
+            <button onclick="appendToDisplay('0')" class="numero">0</button>
+            <button onclick="appendToDisplay('.')" class="numero">.</button>
+            <br>
+            <button onclick="calculateResult()" class="operacion">=</button>
+        </div>
+    
+        <script src="../asset/js/script-calculadora.js"></script>
+    </body>
+    </html>
+</body>
+</html>

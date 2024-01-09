@@ -1,0 +1,19 @@
+body {
+    background-color: #231F20;
+    color: #FFFFFF;
+}
+
+.card {
+    background-color: #877B66;
+    color: #FFFFFF;
+}
+
+.btn-primary {
+    background-color: #F3DFA2;
+    border-color: #F3DFA2;
+}
+
+.btn-primary:hover {
+    background-color: #FFFFFF;
+    color: #231F20;
+}

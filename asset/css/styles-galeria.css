@@ -1,0 +1,193 @@
+*{
+    background-color: #B11313;
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    display: block;
+    max-width: 16%;
+    padding: 50px 0;
+    height: auto;
+    margin: auto;
+}
+
+.galeria{
+    color: #B11313;
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+.galeria:hover{
+    opacity: 1;
+    transition: 1s ease;
+}
+
+section{
+    color: #EFE6DD;
+    background-image: url(../../imagenes/img-galeria/fondo-2-galeria.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.5;
+    transition: 1s ease;
+    padding: 50px 0;
+}
+
+section:hover{
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.img-corrediza{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    max-width: 80%;
+    background-size: cover;
+    border: 5px solid;
+    border-color: black;
+    background-color: black;
+}
+
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+section img:hover{
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.heroes{
+    color: #EFE6DD;
+    background-image: url(../../imagenes/img-galeria/fondo-2-galeria.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 100px;
+    grid-template-rows: auto;
+    row-gap: 20px;
+}
+
+.heroes img{
+    max-width: 100%;
+    height: auto;
+}
+
+.heroes p{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+.enemigos{
+    color: #EFE6DD;
+    background-image: url(../../imagenes/img-galeria/fondo-2-galeria.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 100px;
+    grid-template-rows: auto;
+    row-gap: 20px;
+}
+
+.enemigos img{
+    max-width: 100%;
+    height: auto;
+}
+
+.enemigos p{
+    font-family: 'Oswald', sans-serif;
+    background-color: black;
+    color: #ffffff;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    background-color: black;
+    color: #ffffff;
+}
+
+h2:hover{
+    opacity: 1;
+    transition: 1s ease;
+}
+
+.ig-gal{
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 50px 0;
+    text-decoration: none;
+    background-color: #B11313;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    align-content: center;
+}
+
+.carousel.slide{
+    color: #B11313;
+    opacity: 0.5;
+    transition: 1s ease;
+}
+
+.carousel.slide:hover{
+    opacity: 1;
+    transition: 1s ease;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    background-color: #850e0e;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 15px; 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #231F20; 
+    border-radius: 6px; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #231F20;
+}
+::-webkit-scrollbar-track {
+    background-color: #B11313;
+}
+::-webkit-scrollbar-track:hover {
+    background-color: #EFE6DD;
+}
