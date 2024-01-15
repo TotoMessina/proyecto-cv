@@ -15,7 +15,7 @@
         flex-direction: column;
         background-color: #F3DFA2;
         width: 100%;
-        height: 225px;
+        height: auto;
     }
     .nav-link{
         font-family: 'Oswald', sans-serif;
@@ -117,6 +117,7 @@
         color: #EFE6DD;
         padding-left: 10px;
         margin-top: 20px;
+        font-weight: 900;
     } 
     ul{
         list-style: none;
@@ -126,18 +127,19 @@
         color: #EFE6DD;
         margin-top: 20px;
         margin-left: 10px;
+        font-weight: 900;
     }
     .redes-lista{
         text-decoration: none;
         color: #231F20;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 300;
     } 
     .con-lista{
         text-decoration: none;
         color: #231F20;
         font-size: 20px;
-        font-weight: 500;
+        font-weight: 300;
     }
 /* FIN DE FOOTER*/
 /* INICIO DE ESTUDIOS*/
@@ -428,6 +430,9 @@ input{
 }
 /*FIN DE EXPERIENCIA*/
 /*INICIO DE CONTACTOS*/
+.container{
+    margin: 0;
+}
 .linea-cont{
     display: flex;
     flex-direction: column;
@@ -1482,6 +1487,9 @@ input{
 
 /*FIN DE EXPERIENCIA*/
 /*INICIO DE CONTACTOS*/
+.container{
+    margin: 0;
+}
 .linea-cont{
     display: flex;
     flex-direction: column;
