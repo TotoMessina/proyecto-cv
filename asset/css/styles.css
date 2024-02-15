@@ -1383,6 +1383,9 @@
     border-radius: 150px;
     font-weight: 600;
   }
+  .container{
+    padding: 0;
+  }
   /*FIN DE CURSOS*/
   /*INICIO DE PROYECTOS*/
   .proy-web {
@@ -1598,7 +1601,7 @@
   }
   .texto-cont {
     margin-left: 20px;
-    width: 80%;
+    max-width: 100%;
     font-family: "Oswald", sans-serif;
   }
   .empleador {
